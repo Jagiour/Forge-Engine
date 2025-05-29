@@ -4,12 +4,17 @@
     "description": "Forge Engine Universal Role-Playing System By Justin Halliday on FoundryVTT.",
     "version": "1.0.0",
     "compatibility":{
-        "minimum": 12,
+        "minimum": 13,
         "verified": "13.334"
     },
-    "authors": [{
-        "name": "Eguineldo Estrada"
-    }],
+    "url": "https://github.com/Jagiour/Forge-Engine.git",
+    "manifest": "https://raw.githubusercontent.com/Jagiour/Forge-Engine/refs/heads/main/system.json",
+    "authors": [
+        {
+            "name": "Eguineldo Estrada"
+        }
+    ]
+    ,
     "esmodules": ["forge.mjs"],
     "styles": ["styles/system-styles.css"],
     "packs": [
