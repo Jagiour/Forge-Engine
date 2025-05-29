@@ -1,0 +1,74 @@
+{
+    "Actor": {
+        "types": ["character", "npc", "enemy", "vehicle"],
+        "templates": {
+            "base": {
+                "attributes": {
+                    "str": {
+                        "base": 0,
+                        "culture": 0,
+                        "age": 0
+                    },
+                    "agi": {
+                        "base": 0,
+                        "culture": 0,
+                        "age": 0
+                    },
+                    "sta": {
+                        "base": 0,
+                        "culture": 0,
+                        "age": 0
+                    },
+                    "inf": {
+                        "base": 0,
+                        "culture": 0,
+                        "age": 0
+                    },
+                    "int": {
+                        "base": 0,
+                        "culture": 0,
+                        "age": 0
+                    },
+                    "acu": {
+                        "base": 0,
+                        "culture": 0,
+                        "age": 0
+                    },
+                "health": {
+                    
+                },
+                "energy": {
+
+                }
+                }
+            }
+        },
+        "character": {
+            "templates": ["base"],
+            "biography": "",
+            "background": "",
+            "backstory": "",
+            "gender": "",
+            "culture": "",
+            "religion": "",
+            "age": "",
+            "height": "",
+            "weight": "",
+            "wealth": 0,
+            "description": "",
+            "move": 0
+        }
+    },
+    "Item": {
+        "types": [
+            "weapon",
+            "equipment",
+            "race",
+            "spell"
+        ],
+        "weapon": {
+            "cost": 0,
+            "rating": 0
+        }
+    }
+}
