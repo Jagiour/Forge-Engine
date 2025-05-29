@@ -1,0 +1,16 @@
+/* I got this link from google fonts, 
+they have a built-in import feature that made
+getting the font really easy. */
+
+@import url('https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap');
+
+/* This tells my file what font it should be using.
+It's a pretty good idea to list multiple fonts just for a backup. */
+@font-face {
+    font-family: 'Modesto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/modesto-condensed.woff2') format('woff2');
+  }
+  
+

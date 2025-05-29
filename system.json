@@ -1,0 +1,79 @@
+{
+    "id": "forge",
+    "title": "Forge Engine",
+    "description": "Forge Engine Universal Role-Playing System By Justin Halliday on FoundryVTT.",
+    "version": "1.0.0",
+    "compatibility":{
+        "minimum": 12,
+        "verified": "13.334"
+    },
+    "authors": [{
+        "name": "Eguineldo Estrada"
+    }],
+    "esmodules": ["forge.mjs"],
+    "styles": ["styles/system-styles.css"],
+    "packs": [
+        {
+            "name": "enemies",
+            "label": "Enemies",
+            "system": "forge",
+            "type": "Actor"
+        },
+        {
+            "name": "weapons",
+            "label": "Weapons",
+            "system": "forge",
+            "type": "Item"
+        },
+        {
+            "name": "macro",
+            "label": "Macros",
+            "system": "forge",
+            "type": "Macro"
+        },
+        {
+            "name": "journal",
+            "label": "Journal Entries",
+            "system": "forge",
+            "type": "JournalEntry"
+        },
+        {
+            "name": "cards",
+            "label": "Cards",
+            "system": "forge",
+            "type": "Cards"
+        },
+        {
+            "name": "playlist",
+            "label": "Playlists",
+            "system": "forge",
+            "type": "Playlist"
+        },
+        {
+            "name": "scene",
+            "label": "Scenes",
+            "system": "forge",
+            "type": "Scene"
+        },
+        {
+            "name": "items",
+            "label": "Items",
+            "system": "forge",
+            "type": "Item"
+        }
+    ],
+    "languages": [{
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+    }],
+    "socket": false,
+    "initiative": "1d20",
+    "grid": {
+        "distance": 10,
+        "units": "ft"
+    },
+    "primaryTokenAttribute": "health",
+    "secondaryTokenAttribute": "energy",
+    "background": "systems/forge/ui/background/forge-engine-background.webp"
+}
